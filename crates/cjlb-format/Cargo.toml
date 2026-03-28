@@ -1,0 +1,14 @@
+[package]
+name = "cjlb-format"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[dependencies]
+bytemuck = { workspace = true }
+thiserror = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+
+[lints]
+workspace = true

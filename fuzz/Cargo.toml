@@ -1,0 +1,45 @@
+[package]
+name = "cjlb-fuzz"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+libfuzzer-sys = "0.4"
+cjlb-format = { path = "../crates/cjlb-format" }
+cjlb-crypto = { path = "../crates/cjlb-crypto" }
+arbitrary = { version = "1", features = ["derive"] }
+bytemuck = "1"
+serde_json = "1"
+
+# Prevent this from interfering with workspace
+[workspace]
+members = ["."]
+
+[[bin]]
+name = "decrypt_page"
+path = "fuzz_targets/decrypt_page.rs"
+doc = false
+
+[[bin]]
+name = "encrypt_decrypt_roundtrip"
+path = "fuzz_targets/encrypt_decrypt_roundtrip.rs"
+doc = false
+
+[[bin]]
+name = "route_table_parse"
+path = "fuzz_targets/route_table_parse.rs"
+doc = false
+
+[[bin]]
+name = "nonce_generation"
+path = "fuzz_targets/nonce_generation.rs"
+doc = false
+
+[[bin]]
+name = "config_validate"
+path = "fuzz_targets/config_validate.rs"
+doc = false

@@ -1,0 +1,21 @@
+[package]
+name = "cjlb-shim"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+cjlb-format = { workspace = true }
+cjlb-crypto = { workspace = true }
+libc = { workspace = true }
+zeroize = { workspace = true }
+zstd = { workspace = true }
+bytemuck = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+
+[lints]
+workspace = true

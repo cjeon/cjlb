@@ -1,0 +1,32 @@
+[package]
+name = "cjlb-pack"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[lib]
+name = "cjlb_pack"
+path = "src/lib.rs"
+
+[[bin]]
+name = "cjlb-pack"
+path = "src/main.rs"
+
+[dependencies]
+cjlb-format = { workspace = true }
+cjlb-crypto = { workspace = true }
+walkdir = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+zstd = { workspace = true }
+rand = { workspace = true }
+anyhow = { workspace = true }
+log = { workspace = true }
+env_logger = { workspace = true }
+bytemuck = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }
+
+[lints]
+workspace = true

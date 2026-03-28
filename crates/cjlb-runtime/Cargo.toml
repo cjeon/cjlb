@@ -1,0 +1,22 @@
+[package]
+name = "cjlb-runtime"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[[bin]]
+name = "cjlb-runtime"
+path = "src/main.rs"
+
+[dependencies]
+cjlb-format = { workspace = true }
+cjlb-crypto = { workspace = true }
+libc = { workspace = true }
+zeroize = { workspace = true }
+serde_json = { workspace = true }
+zstd = { workspace = true }
+anyhow = { workspace = true }
+log = { workspace = true }
+
+[lints]
+workspace = true

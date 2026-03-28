@@ -1,0 +1,9 @@
+[default]
+workspace = true
+timeout = "120"
+out = ["Html", "Lcov"]
+output-dir = "coverage"
+# Target 90% coverage
+fail-under = 90.0
+# Skip the shim cdylib (can't instrument LD_PRELOAD) and bootstrap (Linux-only syscalls)
+exclude = ["cjlb-shim", "cjlb-bootstrap"]

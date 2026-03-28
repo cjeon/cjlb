@@ -1,0 +1,59 @@
+CJLB Software License
+Copyright (c) 2026 Cheolho Jeon. All rights reserved.
+
+1. DEFINITIONS
+
+"Software" means the CJLB software and all
+associated source code, documentation, and binaries in this repository.
+
+"Commercial License" means a separate written agreement between you and
+the copyright holder granting rights to use the Software beyond what this license
+permits.
+
+"Small Entity" means any person or organization that meets ALL of the
+following conditions at the time of use:
+  (a) has fewer than 1,000 employees (including contractors);
+  (b) has less than $1,000,000 USD in annual gross revenue; AND
+  (c) is not publicly listed on any stock exchange.
+
+2. GRANT — SMALL ENTITIES
+
+If you are a Small Entity, you may use, copy, modify, and distribute the
+Software free of charge for any purpose, subject to the following conditions:
+  (a) You must retain this license notice in all copies.
+  (b) You must not remove or alter any copyright notices.
+  (c) You provide no warranty and accept no liability (see Section 5).
+
+3. COMMERCIAL USE
+
+If you are NOT a Small Entity — that is, your organization has 1,000 or
+more employees, OR $1,000,000 or more in annual gross revenue, OR is
+publicly listed on any stock exchange — you must obtain a Commercial
+License from the copyright holder before using the Software in any capacity.
+
+Contact: cjlb@cjeon.com
+
+4. CONTRIBUTIONS
+
+By submitting a contribution (pull request, patch, or other modification)
+to this repository, you grant the copyright holder a perpetual, worldwide,
+non-exclusive, royalty-free, irrevocable license to use, reproduce, modify,
+distribute, sublicense, and otherwise exploit your contribution in
+connection with the Software under any license terms, including commercial
+licenses.
+
+5. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING
+FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+6. TERMINATION
+
+Your rights under this license terminate automatically if you fail to
+comply with its terms. Upon termination, you must cease all use and
+destroy all copies of the Software.

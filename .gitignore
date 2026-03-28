@@ -1,0 +1,17 @@
+# Secrets
+*.key
+*.pem
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+/build/
+/dist/
+/target/
+target/
+
+# Coverage
+/coverage/
